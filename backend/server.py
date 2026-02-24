@@ -35,7 +35,15 @@ CRYPTO_RATES = {
     'usdt': 5.80,
     'usdc': 5.80,
     'bnb': 2800,
-    'drex': 1
+    'drex': 1,
+    'solana': 800,
+    'cardano': 3.50,
+    'polkadot': 45,
+    'litecoin': 600,
+    'chainlink': 85,
+    'polygon': 5.20,
+    'ripple': 3.20,
+    'avalanche': 220
 }
 
 PLATFORM_FEE_PERCENT = 1.5
