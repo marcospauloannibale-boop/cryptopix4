@@ -162,7 +162,7 @@ const Register = ({ setUser }) => {
                 <div className="text-center">
                   <small className="text-muted">
                     Já tem uma conta? {' '}
-                    <a href="#" onClick={() => setActiveSection('login')} style={{color: '#667eea'}}>Entrar</a>
+                    <a href="/login" onClick={(e) => { e.preventDefault(); navigate('/login'); }} style={{color: '#667eea'}}>Entrar</a>
                   </small>
                 </div>
               </form>
