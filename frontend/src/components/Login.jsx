@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { LogIn } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
-const Login = ({ setUser, setActiveSection }) => {
+const Login = ({ setUser }) => {
+  const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
