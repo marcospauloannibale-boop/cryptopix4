@@ -57,7 +57,15 @@ def generate_crypto_address(crypto: str) -> str:
         'usdt': '0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb',
         'usdc': '0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb',
         'bnb': 'bnb1grpf0955h0ykzq3ar5nmum7y6gdfl6lxfn46h2',
-        'drex': 'drex1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0'
+        'drex': 'drex1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0',
+        'solana': 'SoLaR1234567890abcdefghijklmnopqrstuvwxyz',
+        'cardano': 'addr1qx2fxv2umyhttkxyxp8x0dlpdt3k6cwng5pxj3jhsydzer3n0d3vllmyqwsx5wktcd8cc3sq835lu7drv2xwl2wywfgs68faae',
+        'polkadot': '1zugcavYA9yCuYwiEYeMHNJm9gXznYjNfXQjZsZukF1Mpow',
+        'litecoin': 'LTC1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa',
+        'chainlink': '0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb',
+        'polygon': '0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb',
+        'ripple': 'rN7n7otQDd6FczFgLdlqtyMVrn3NnkhaWV',
+        'avalanche': 'X-avax1qx2fxv2umyhttkxyxp8x0dlpdt3k6cwng5pxj3jhs'
     }
     return addresses.get(crypto, addresses['bitcoin'])
 
