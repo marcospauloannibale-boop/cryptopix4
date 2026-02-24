@@ -58,7 +58,7 @@ const Login = ({ setUser }) => {
       };
       setUser(regularUser);
       localStorage.setItem('cryptopix_user', JSON.stringify(regularUser));
-      setActiveSection('home');
+      navigate('/');
       return;
     }
 
