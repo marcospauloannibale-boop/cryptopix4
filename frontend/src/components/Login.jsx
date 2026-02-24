@@ -22,7 +22,7 @@ const Login = ({ setUser }) => {
       };
       setUser(adminUser);
       localStorage.setItem('cryptopix_user', JSON.stringify(adminUser));
-      setActiveSection('admin');
+      navigate('/admin');
       return;
     }
 
