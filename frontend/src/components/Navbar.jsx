@@ -1,11 +1,15 @@
 import React from 'react';
 import { ArrowLeftRight, Search, Users, Settings } from 'lucide-react';
+import { useNavigate, useLocation } from 'react-router-dom';
 
-const Navbar = ({ activeSection, setActiveSection, user, setUser }) => {
+const Navbar = ({ user, setUser }) => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  
   const handleLogout = () => {
     setUser(null);
     localStorage.removeItem('cryptopix_user');
-    setActiveSection('home');
+    navigate('/');
   };
 
   return (
