@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { UserPlus } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
-const Register = ({ setUser, setActiveSection }) => {
+const Register = ({ setUser }) => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
