@@ -113,7 +113,7 @@ const Login = ({ setUser }) => {
                 <div className="text-center">
                   <small className="text-muted">
                     Não tem uma conta? {' '}
-                    <a href="#" onClick={() => setActiveSection('register')} style={{color: '#667eea'}}>Cadastre-se</a>
+                    <a href="/register" onClick={(e) => { e.preventDefault(); navigate('/register'); }} style={{color: '#667eea'}}>Cadastre-se</a>
                   </small>
                 </div>
               </form>
