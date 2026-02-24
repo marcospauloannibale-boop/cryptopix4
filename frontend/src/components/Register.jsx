@@ -47,9 +47,9 @@ const Register = ({ setUser }) => {
     localStorage.setItem('cryptopix_user', JSON.stringify(newUser));
     
     if (formData.role === 'affiliate') {
-      setActiveSection('dashboard');
+      navigate('/dashboard');
     } else {
-      setActiveSection('home');
+      navigate('/');
     }
   };
 
