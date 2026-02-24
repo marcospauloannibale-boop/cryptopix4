@@ -60,6 +60,86 @@ export const cryptocurrencies = [
     network: 'Blockchain Brasil',
     networkFee: 0,
     minAmount: 1
+  },
+  {
+    id: 'solana',
+    name: 'Solana',
+    symbol: 'SOL',
+    icon: '◎',
+    rate: 800,
+    network: 'Solana',
+    networkFee: 0.00001,
+    minAmount: 0.01
+  },
+  {
+    id: 'cardano',
+    name: 'Cardano',
+    symbol: 'ADA',
+    icon: '₳',
+    rate: 3.50,
+    network: 'Cardano',
+    networkFee: 0.17,
+    minAmount: 10
+  },
+  {
+    id: 'polkadot',
+    name: 'Polkadot',
+    symbol: 'DOT',
+    icon: '●',
+    rate: 45,
+    network: 'Polkadot',
+    networkFee: 0.01,
+    minAmount: 1
+  },
+  {
+    id: 'litecoin',
+    name: 'Litecoin',
+    symbol: 'LTC',
+    icon: 'Ł',
+    rate: 600,
+    network: 'Litecoin',
+    networkFee: 0.001,
+    minAmount: 0.01
+  },
+  {
+    id: 'chainlink',
+    name: 'Chainlink',
+    symbol: 'LINK',
+    icon: '⬡',
+    rate: 85,
+    network: 'Ethereum (ERC-20)',
+    networkFee: 0.1,
+    minAmount: 0.1
+  },
+  {
+    id: 'polygon',
+    name: 'Polygon',
+    symbol: 'MATIC',
+    icon: '⬢',
+    rate: 5.20,
+    network: 'Polygon',
+    networkFee: 0.001,
+    minAmount: 1
+  },
+  {
+    id: 'ripple',
+    name: 'Ripple',
+    symbol: 'XRP',
+    icon: 'X',
+    rate: 3.20,
+    network: 'XRP Ledger',
+    networkFee: 0.00001,
+    minAmount: 10
+  },
+  {
+    id: 'avalanche',
+    name: 'Avalanche',
+    symbol: 'AVAX',
+    icon: '▲',
+    rate: 220,
+    network: 'Avalanche C-Chain',
+    networkFee: 0.001,
+    minAmount: 0.1
   }
 ];
 
